@@ -22,7 +22,7 @@ public class MusicPlayer {
 
     private Music music1;
     private Music music2;
-@Autowired
+    @Autowired
     public MusicPlayer(@Qualifier("rockMusic") Music music1, @Qualifier("classicalMusic") Music music2) {
         this.music1 = music1;
         this.music2 = music2;
